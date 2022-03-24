@@ -23,6 +23,5 @@ phases:
   post_build:
     commands:
       - echo Executing Post Build Phase
-      - aws s3 cp deploy.zip s3://fghbjnmk
     finally:
       - echo Executing Post Build Finally 
