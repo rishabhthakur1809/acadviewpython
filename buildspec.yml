@@ -11,6 +11,7 @@ phases:
   pre_build:
     commands:
       - echo Executing Pre Build Phase
+      - zip -r deploy.zip .
     finally:
       - echo Executing Pre Build Phase
 
